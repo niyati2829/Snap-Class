@@ -1,0 +1,15 @@
+# utility
+numpy
+pandas
+matplotlib
+#face recognition its is uded for classification
+scikit-learn 
+dlib-bin
+git+https://github.com/ageitgey/face_recognition_models
+# this is used for installing lib from git and all as we are not directly installing using pip
+setuptools<70.0.0 
+supabase # for database operations(has postsgreSQL and etc)
+bcrypt # for hashing the password
+segno # for generating QR code through url
+pillow # for image processing
+streamlit # for creating web app frontend 
