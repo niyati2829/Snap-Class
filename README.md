@@ -4,7 +4,7 @@ An automated classroom attendance system using computer vision (facial recogniti
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 - **Dual-Portal Interface**: Seamless navigation for Teachers and Students with clean, modern branding.
 - **AI Face Recognition**: High-precision 128-dimensional facial landmark extraction with dlib and SVC/nearest-centroid classification.
@@ -16,7 +16,7 @@ An automated classroom attendance system using computer vision (facial recogniti
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 - **Frontend & App Framework**: [Streamlit](https://streamlit.io/)
 - **Database & Cloud Storage**: [Supabase](https://supabase.com/) (PostgreSQL)
@@ -28,7 +28,7 @@ An automated classroom attendance system using computer vision (facial recogniti
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Prerequisites
 - Python 3.10 - 3.14
