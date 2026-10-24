@@ -1,15 +1,23 @@
-# utility
+streamlit # for creating web app frontend 
+
+# Data & Numerical Processing
 numpy
 pandas
-matplotlib
-#face recognition its is uded for classification
-scikit-learn 
-dlib-bin
-git+https://github.com/ageitgey/face_recognition_models
-# this is used for installing lib from git and all as we are not directly installing using pip
-setuptools<70.0.0 
-supabase # for database operations(has postsgreSQL and etc)
-bcrypt # for hashing the password
-segno # for generating QR code through url
+scikit-learn # for classifier model (SVC)
+
+# Database & Auth
+supabase # for database operations (PostgreSQL / Supabase client)
+bcrypt # for hashing passwords
+
+# Utilities & Assets
+segno # for generating QR codes
 pillow # for image processing
-streamlit # for creating web app frontend 
+
+# Face Recognition Pipeline
+dlib-bin # or dlib, C++ ML toolkit for facial landmarks and face recognition
+face_recognition_models # pretrained models for landmark detection and face encodings
+
+# Voice Recognition Pipeline
+torch # PyTorch deep learning framework
+librosa # for audio processing
+resemblyzer # for voice embeddings and speaker diarization

@@ -2,6 +2,7 @@ import streamlit as st
 from pathlib import Path
 
 from src.screens.components.header import header_home
+from src.screens.components.footer import footer_home
 from src.screens.ui.base_layout import style_base_layout, style_background_home
 
 
@@ -16,20 +17,22 @@ def home_screen():
     teacher_img = project_root / "assets" / "teacher_illustration.png"
 
     # Side-by-side equal dimension portal cards
-    col1, col2 = st.columns(2, gap="large")
+    col1, col2 = st.columns(2, gap="medium")
 
     with col1:
         with st.container(border=True):
             if student_img.exists():
-                st.image(str(student_img), use_container_width=True)
-            if st.button("Student Portal", key="btn_student_portal", use_container_width=True):
+                st.image(str(student_img), width='stretch')
+            if st.button("Student Portal", key="btn_student_portal", width='stretch'):
                 st.session_state["login_type"] = "student"
                 st.rerun()
 
     with col2:
         with st.container(border=True):
             if teacher_img.exists():
-                st.image(str(teacher_img), use_container_width=True)
-            if st.button("Teacher Portal", key="btn_teacher_portal", use_container_width=True):
+                st.image(str(teacher_img), width='stretch')
+            if st.button("Teacher Portal", key="btn_teacher_portal", width='stretch'):
                 st.session_state["login_type"] = "teacher"
                 st.rerun()
+
+    footer_home()
