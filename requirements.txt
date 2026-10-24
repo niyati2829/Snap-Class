@@ -1,4 +1,5 @@
 streamlit # for creating web app frontend 
+setuptools<81.0.0 # provides pkg_resources required by face_recognition_models and webrtcvad
 
 # Data & Numerical Processing
 numpy
