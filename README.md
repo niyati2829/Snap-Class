@@ -1,7 +1,6 @@
 # SnapClass — AI-Powered Smart Attendance System
 
-An automated classroom attendance system using computer vision (facial recognition) and speech processing (voice biometrics). Built with Streamlit, Supabase, dlib, and Resemblyzer.
-
+Snap Class is an AI-powered attendance management system built with Streamlit that uses face recognition and voice recognition to simplify attendance tracking. It features separate teacher and student portals, user registration and login, and attendance management through an interactive interface. Designed to make attendance tracking smarter, faster, and more convenient.
 ---
 
 ## Key Features
